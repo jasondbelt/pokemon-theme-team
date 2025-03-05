@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pokemon</h1>
+    </header>
+    <main>
+      <div id="container"></div>
+      <form onsubmit="getPokemons(event)">
+        <input type="submit" value="randomPokemons"/>
+      </form><br>
+      <button onclick="resetPage()">Reset Page</button><br>
+    </main>
+    <footer></footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
